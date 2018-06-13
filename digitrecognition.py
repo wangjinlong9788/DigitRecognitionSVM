@@ -9,7 +9,7 @@ bin_n = 16 # Number of bins
 
 affine_flags = cv.WARP_INVERSE_MAP|cv.INTER_LINEAR
 
-## [deskew]
+## [deskew]function deskew() takes a digit image and deskew it.
 def deskew(img):
     m = cv.moments(img)
     if abs(m['mu02']) < 1e-2:
