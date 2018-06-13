@@ -6,7 +6,7 @@ The local object appearance and shape within an image can be described by the di
 
 Define E[(x−c)^k] as the moment of k order about x.
 
-The function 	retval	=	cv.moments(	array[, binaryImage]  computes moments, up to the 3rd order, of a vector shape or a rasterized shape
+The function 	retval	=	cv.moments(	array[, binaryImage]) computes moments, up to the 3rd order, of a vector shape or a rasterized shape
 # Support Vector Machine(SVM)
 
 A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. 
