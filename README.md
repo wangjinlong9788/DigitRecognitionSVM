@@ -2,6 +2,8 @@
 
 Use Histogram of Oriented Gradients (HOG) as feature vectors.
 
+The local object appearance and shape within an image can be described by the distribution of intensity gradients or edge directions.
+
 # Support Vector Machine(SVM)
 
 A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. 
