@@ -11,6 +11,18 @@ Image moment is a certain particular weighted average (moment) of the image pixe
 source:https://en.wikipedia.org/wiki/Image_moment https://blog.csdn.net/keith_bb/article/details/70197104
 
 The function 	retval	=	cv.moments(	array[, binaryImage]) computes moments, up to the 3rd order, of a vector shape or a rasterized shape
+
+The moments are defined as:
+
+![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/moments.jpg)
+
+where f(i,j) is the grayscale of figure with M*N and the centroid are
+
+![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/ijaverage.jpg)
+
+Central moment can be:
+![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/centermoments.jpg)
+
 # Support Vector Machine(SVM)
 
 A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. 
