@@ -21,7 +21,17 @@ where f(i,j) is the grayscale of figure with M*N and the centroid are
 ![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/ijaverage.jpg)
 
 Central moment can be:
+
 ![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/centermoments.jpg)
+
+Scale invariants is then:
+
+![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/sclaeinvariant.jpg)
+
+invariants with respect to translation, scale, and rotation can be constructed:
+
+![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/invariants.jpg)
+
 
 # Support Vector Machine(SVM)
 
