@@ -47,6 +47,8 @@ test_cells = [ i[50:] for i in cells]
 ######     Now training      ########################
 
 deskewed = [list(map(deskew,row)) for row in train_cells]
+#map() function returns a list of the results after applying the given function to each item 
+#of a given iterable (list, tuple etc.)
 hogdata = [list(map(hog,row)) for row in deskewed]
 trainData = np.float32(hogdata).reshape(-1,64)
 responses = np.repeat(np.arange(10),250)[:,np.newaxis]
