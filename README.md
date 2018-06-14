@@ -4,7 +4,11 @@ Use Histogram of Oriented Gradients (HOG) as feature vectors.
 
 The local object appearance and shape within an image can be described by the distribution of intensity gradients or edge directions.
 
-Define E[(x−c)^k] as the moment of k order about x.
+Define E[(x−c)^k] as the moment of k order about x.  
+
+Image moment is a certain particular weighted average (moment) of the image pixels' intensities, or a function of such moments, usually chosen to have some attractive property or interpretation.
+
+source:https://en.wikipedia.org/wiki/Image_moment https://blog.csdn.net/keith_bb/article/details/70197104
 
 The function 	retval	=	cv.moments(	array[, binaryImage]) computes moments, up to the 3rd order, of a vector shape or a rasterized shape
 # Support Vector Machine(SVM)
