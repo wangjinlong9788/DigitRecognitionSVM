@@ -1,4 +1,4 @@
-# DigitRecognitionSVM
+# Digit Recognition with SVM
 
 Use Histogram of Oriented Gradients (HOG) as feature vectors.
 
