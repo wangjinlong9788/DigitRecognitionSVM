@@ -7,7 +7,7 @@ SZ=20
 bin_n = 16 # Number of bins
 
 
-affine_flags = cv.WARP_INVERSE_MAP|cv.INTER_LINEAR
+affine_flags = cv.WARP_INVERSE_MAP|cv.INTER_LINEAR #warpAffine source: https://blog.csdn.net/keith_bb/article/details/56331356
 
 ## [deskew]function deskew() takes a digit image and deskew it.
 def deskew(img):
@@ -16,7 +16,7 @@ def deskew(img):
         return img.copy()
     skew = m['mu11']/m['mu02']
     M = np.float32([[1, skew, -0.5*SZ*skew], [0, 1, 0]])
-    img = cv.warpAffine(img,M,(SZ, SZ),flags=affine_flags)
+    img = cv.warpAffine(img,M,(SZ, SZ),flags=affine_flags)#warpAffine source: https://blog.csdn.net/keith_bb/article/details/56331356
     return img
 ## [deskew]
 
