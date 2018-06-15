@@ -38,6 +38,8 @@ Example code of using sobel operator: sobel.py
 
 Calculates the first, second, third, or mixed image derivatives using an extended Sobel operator.
 
+![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/operator.PNG)
+
 Result:
 
 ![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/car.jpg)
