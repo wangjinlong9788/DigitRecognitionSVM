@@ -29,6 +29,9 @@ def hog(img):
     bin_cells = bins[:10,:10], bins[10:,:10], bins[:10,10:], bins[10:,10:]
     mag_cells = mag[:10,:10], mag[10:,:10], mag[:10,10:], mag[10:,10:]
     hists = [np.bincount(b.ravel(), m.ravel(), bin_n) for b, m in zip(bin_cells, mag_cells)]
+    #np.bincount(np.array([0, 1, 1, 3, 2, 1, 7]))
+    #array([1, 3, 1, 1, 0, 0, 0, 1], dtype=int32), count from 0-7
+    #a = np.array((1,2,3)) b = np.array((2,3,4))  >>> np.hstack((a,b))  array([1, 2, 3, 2, 3, 4])
     hist = np.hstack(hists)     # hist is a 64 bit vector
     return hist
 ## [hog]
