@@ -40,6 +40,8 @@ Calculates the first, second, third, or mixed image derivatives using an extende
 
 ![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/operator.PNG)
 
+![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/z.PNG)
+
 ![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/derivative.png)
 
 Result:
