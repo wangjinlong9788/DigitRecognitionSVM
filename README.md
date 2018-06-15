@@ -32,6 +32,14 @@ The well-known Hu moment Invariants with respect to translation, scale, and rota
 
 ![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/invariants.jpg)
 
+dst	=	cv.Sobel(	src, ddepth, dx, dy[, dst[, ksize[, scale[, delta[, borderType]]]]]	)
+
+Calculates the first, second, third, or mixed image derivatives using an extended Sobel operator.
+
+Result:
+
+![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/car.jpg)
+![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/car.PNG)
 
 # Support Vector Machine(SVM)
 
