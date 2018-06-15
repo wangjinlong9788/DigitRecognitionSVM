@@ -36,9 +36,11 @@ dst	=	cv.Sobel(	src, ddepth, dx, dy[, dst[, ksize[, scale[, delta[, borderType]]
 
 Example code of using sobel operator: sobel.py
 
-Calculates the first, second, third, or mixed image derivatives using an extended Sobel operator.
+Calculates the first, second, third, or mixed image derivatives using an extended Sobel operator using convolution.
 
 ![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/operator.PNG)
+
+![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/derivative.png)
 
 Result:
 
