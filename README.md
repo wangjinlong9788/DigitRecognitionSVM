@@ -2,6 +2,8 @@
 
 Use Histogram of Oriented Gradients (HOG) as feature vectors.
 
+We have to find the HOG Descriptor of each cell. For that, we find Sobel derivatives of each cell in X and Y direction. Then find their magnitude and direction of gradient at each pixel. This gradient is quantized to 16 integer values. Divide this image to four sub-squares. For each sub-square, calculate the histogram of direction (16 bins) weighted with their magnitude. So each sub-square gives you a vector containing 16 values. Four such vectors (of four sub-squares) together gives us a feature vector containing 64 values. This is the feature vector we use to train our data.
+
 The local object appearance and shape within an image can be described by the distribution of intensity gradients or edge directions.
 
 Define E[(x−c)^k] as the moment of k order about x.  
@@ -45,6 +47,7 @@ Calculates the first, second, third, or mixed image derivatives using an extende
 ![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/z.PNG)
 
 ![image](https://github.com/wangjinlong9788/DigitRecognitionSVM/blob/master/derivative.png)
+
 
 
 
